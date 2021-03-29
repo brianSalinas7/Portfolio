@@ -92,7 +92,15 @@ h4{
     -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.308);
     
   }
-
+/**CAROUSEL**/
+.w-100{
+    height: 30rem!important;/*change height and width bootstrap default*/
+    width: 80rem!important;
+    margin: auto;
+}
+.section-carousel{
+    background-color: rgb(50, 50, 50);
+}
  
 
 
