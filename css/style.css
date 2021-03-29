@@ -1,0 +1,153 @@
+/**RESET**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;/* 1 Rem = 10px*/
+}
+
+/**GLOBAL**/
+p{
+    font-size: 1.7rem;
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2.4rem;
+}
+/**UTILIDADES**/
+.conteiner{
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mt-1{ /*change bootstrap default margin top*/
+    margin-top: 20rem!important;
+}
+
+
+
+
+/**HEADER**/
+.site-header {
+    background-image: url(../img/header-developer.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    
+}
+
+.site-header a{
+    font-size: 2rem;
+    
+
+}
+.linked-nav a:hover{
+    color: white!important;
+}
+.nombre{
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem!important;
+    width: 60%;
+}
+.fa-code{
+    padding: 10px;
+    font-size: 4rem;
+}
+
+.bg-light { /*bg-light is a bootstrap class*/
+    background-color: rgba(61, 64, 68, 0.39)!important; /*change default bootstrap background-color */
+    height: 150px!important;
+}
+.nav-link{
+    color:black!important;/*CAMBIAR COLOR A NEGRO*/
+    
+}
+.none-padding{ /**class for reset padding to "container-fluid"*/
+    padding-left: 0;
+}
+.titulo{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 7rem;
+    color: black;
+    
+}
+.icono-h1{
+    font-size: 8rem;
+    color: orange;
+    margin-top: 10px;
+    
+}
+.texto-borde {
+    -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.308);
+    
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**MEDIA QUERI**/
+@media (max-width:991px) {
+    .nav-link{
+        padding-left: 4rem!important;
+        padding-top: 2rem!important;
+        
+    }
+    
+    .sidebar{
+        background-color: rgba(25, 26, 27, 0.918)!important;
+
+        max-width: 80%;
+        margin-top: 78px;
+        height: 80vh;
+    }
+    .nombre{
+        font-family: 'Crimson Text', serif;
+        
+    }
+    
+}
+
+
+
+
