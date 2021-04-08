@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=New+Tegomin&display=swap" rel="stylesheet">
     
     <!--stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
@@ -38,17 +40,19 @@
                 
                 <div class="collapse navbar-collapse linked-nav" id="navbarNavAltMarkup">
                     <div class="navbar-nav sidebar">
-                    <a class="nav-link" aria-current="page" href="#pelota">About me</a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link" href="#" ">Contact</a>
+                    <a class="nav-link" aria-current="page" href="#about-me">About me</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact" ">Contact</a>
                     
                 </div>
                 </div>
             </div>
           </nav><!--NavBar end-->
-            <div class="mt-1">
-                <h1 class="text-center titulo texto-borde "><i class="fas fa-angle-left icono-h1"></i>Web Developer<i class="fas fa-angle-right icono-h1"></i></h1>
+            <div class="mt-1  align-items-center ">
+              <h2 class=" saludo texto-borde ">Hi, I'm</h2>
+                <h1 class="text-center titulo texto-borde "><i class="fas fa-angle-left icono-h1"></i>Brian Paul Salinas<i class="fas fa-angle-right icono-h1"></i></h1>
+                <p class="text-center" ><i class="fas fa-circle"></i>web developer<i class="fas fa-circle"></i></p>
             </div>
           
       </header>
@@ -83,19 +87,30 @@
         
       </section><!--carousel section end-->
     
-      <main class="color-46 pt-2 pb-1"><!--start section about me-->
-          <section class="seccion-aboutMe conteiner row d-flex bd-highlight">
+      <main class="color-46 pt-2 "><!--start section about me-->
+          <section id="about-me" class="seccion-aboutMe conteiner row d-flex bd-highlight">
               <div class="col-12 col-md-12 col-lg-5">
-                <img class="imagen-about" src="https://picsum.photos/seed/picsum/440/500" alt="...">
+                <img class="imagen-about d-block" src="https://picsum.photos/seed/picsum/440/500" alt="...">
               </div>
               <div class="resumen-me col-12 col-md-12 col-lg-7">
+                <div>
                 <h4 class="centrar-texto">A little bit About me</h4>
                 <h3 class="centrar-texto">who am i</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde porro, mollitia consectetur incidunt recusandae eaque quisquam dicta, dolorum ut laudantium ipsum, itaque necessitatibus ex repudiandae laborum ad beatae? Aut!Quas atque reprehenderit ullam eveniet quasi incidunt rem porro soluta distinctio odio maxime, ducimus natus recusandae mollitia! Minus quos distinctio repudiandae blanditiis, dolores sit doloremque facilis. Beatae porro deserunt repudiandae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde porro, mollitia consectetur incidunt recusandae eaque quisquam dicta, dolorum ut laudantium ipsum, itaque necessitatibus ex repudiandae laborum ad beatae? Aut!Quas atque reprehenderit ullam eveniet quasi incidunt rem porro soluta distinctio odio maxime, ducimus natus recusandae mollitia! Minus quos distinctio repudiandae blanditiis, dolores sit doloremque facilis. Beatae porro deserunt repudiandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto tenetur obcaecati, nulla repudiandae cupiditate amet, voluptatem numquam laborum, at dolor minus modi atque architecto veniam voluptas consequuntur eveniet rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat eligendi rerum quasi facere sequi, similique obcaecati officiis iste aperiam, voluptate sint earum adipisci perspiciatis soluta voluptatem doloremque eveniet error. </p>
               </div>
+              <div class="orange-line d-flex justify-content-between about-redes">
+                <a id="download-cv"  href="./img/CV-Brian-Paul-Salinas.jpg" target=_blank><button class="shadow-lg p-3 mb-5 ">Download CV</button></a>
+                <ul class="d-flex">
+                   <li class="list-redes"><a href="https://www.instagram.com/_.braii._7/"><i class="fab fa-instagram"></i></a></li>
+                   <li class="list-redes"><a href="https://www.linkedin.com/in/brian-pauldev/"><i class="fab fa-linkedin"></i></a></li>
+                   <li class="list-redes"><a href="https://twitter.com/7Braiian7"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
           </section><!--section about me end-->
-          <section class="section-skill color-50 pb-1 shadow-lg p-3 mb-5 bg-body rounded"><!--start section skills-->
-            <h2 id="grafica-skill">Grafica de Skills</h2>
+          
+          <section id="skills" class="section-skill color-50 pb-1 shadow-lg p-3 mb-5 bg-body rounded"><!--start section skills-->
+            <h2 id="grafica-skill">Skills</h2>
             <ul class="list-icon row ">
                 <li class="site-skill col-12 col-lg-6"> Html5 <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> </li>
                 <li class="site-skill col-12 col-lg-6">Css3 <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> </li>
@@ -105,11 +120,88 @@
                 <li class="site-skill col-12 col-lg-6">Github <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> </li>
             </ul>
           </section><!--skill seccion end-->
+          <section id="portfolio" class="d-flex cartas">
+            <div class="card bg-dark text-white col-lg-4 col-12">
+              <img src="./img/site-bienesraices.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Bienes Raices</h5>
+                <p class="card-text">Pagina web de venta de bienes raices aplicando html y css. En esta pagina podes ver una oferta general y apostar por tu primera casa</p>
+                <a class="enlace-portfolio" href="http://venta-de-casas-brian.netlify.app" target="_blank"><p class="card-text">view-site</p></a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white col-lg-4 col-12">
+              
+              <img  src="./img/site-restaurante.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Restaurantes Argentinos</h5>
+                <p class="card-text">Pagina recomendada para los amantes de las salidas, con los mejores restaurantes en la zona central de Buenos Aires.</p>
+                <a class="enlace-portfolio" href="https://restaurantes-argentinos-briansalinas.netlify.app" target="_blank"><p class="card-text ">view-site</p></a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white col-lg-4 col-12">
+              <img  src="./img/site-formulario.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Formulario Nerd</h5>
+                <p class="card-text">Formulario para asistir a un Seminario de Programadores.Para podes Asistir llena los datos requeridos</p>
+                <a class="enlace-portfolio" href="https://formulario-nerd-responsive480px.netlify.app" target="_blank" ><p class="card-text">view-site</p></a>
+              </div>
+            </div>
 
+            
+          </section><!--Section portfolio end -->
+
+          <section><!--Start contact section-->
+            <h5 id="contact" class="contact text-center"><i class="fas fa-user-circle"></i>let's talk</h5>
+            <div class=" formulario ">
+              <h5>complete the form and wait for us to contact you</h5>
+              <form class="mt-2 " action="https://formspree.io/f/xrgrgkjv" method="POST">
+                <div class="name-surname">
+                  <div>
+                    <label>
+                      <input type="text" id="name" name="name" class="form-name" placeholder="Name">
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      <input type="text" id="surname" name="surname" class="form-name"  placeholder="Surname">
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <label>
+                    <input type="e-mail" id="email" name="email" placeholder="example@gmail.com">
+                  </label>
+                </div>
+                <select name="location" id="location">
+                  <option value="">company location</option>
+                  <option value="arg">Argentina</option>
+                  <option value="chi">Chile</option>
+                  <option value="ven">Venezuela</option>
+                  <option value="mex">mexico</option>
+                  <option value="other">Europa/EEUU/otro</option>
+                </select>
+                <div>
+                  <label for="textArea"></label>
+                  <textarea name="textArea" id="textArea" class="text-area" cols="30" rows="10" placeholder="tell me more..."></textarea>
+                </div>
+                <div class="d-flex justify-content-center" >
+                  <button class="btn-form" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+
+          </section>
       </main>
 
-      <footer class="site-footer">
-
+      <footer class="site-footer d-flex justify-content-between align-items-center">
+          <ul class="d-flex redes-footer">
+            <li class="list-redes"><a href="https://www.instagram.com/_.braii._7/"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-redes"><a href="https://www.linkedin.com/in/brian-pauldev/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-redes"><a href="https://twitter.com/7Braiian7"><i class="fab fa-twitter"></i></a></li>
+         </ul>
+        
+             <p>&reg;All rights reserved: Brian Paul Salinas</p>
+        
       </footer>
 
 

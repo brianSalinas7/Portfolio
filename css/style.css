@@ -7,6 +7,10 @@
 html{
     font-size: 62.5%;/* 1 Rem = 10px*/
 }
+body{
+    background-color: rgb(46, 46, 46);
+    
+}
 
 /**GLOBAL**/
 p{
@@ -24,14 +28,22 @@ h3{
 h4{
     font-size: 2.4rem;
 }
+main{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 /**UTILIDADES**/
 .conteiner{
-    max-width: 120rem;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 .mt-1{ /*change bootstrap default margin top*/
-    margin-top: 20rem!important;
+    margin-top: 9rem!important;
+}
+.mt-2{
+    margin-top: 5rem!important;
 }
 
 .pt-2{
@@ -46,6 +58,14 @@ h4{
 .color-50{
     background-color: rgb(50, 50, 50)!important;
 }
+.orange-line{
+    content: '';
+    display: block;
+    width: 50rem;
+    height: .2rem;
+    background-color: #E08709;
+    margin-top: 1rem;
+}
 
 
 
@@ -57,6 +77,7 @@ h4{
     background-size: cover;
     height: 100vh;
     min-height: 700px;
+    overflow: hidden!important;
     
 }
 
@@ -66,7 +87,7 @@ h4{
 
 }
 .linked-nav a:hover{
-    color: white!important;
+    color: #E08709!important;
 }
 .nombre{
     font-family: 'Crimson Text', serif;
@@ -83,17 +104,34 @@ h4{
     height: 150px!important;
 }
 .nav-link{
-    color:black!important;/*CAMBIAR COLOR A NEGRO*/
+    color:#f9fcfb!important;/*CAMBIAR COLOR A NEGRO*/
     
 }
 .none-padding{ /**class for reset padding to "container-fluid"*/
     padding-left: 0;
 }
+.saludo{
+    color: #E08709;
+    font-size: 9rem;
+    font-family: 'Kalam', cursive;
+    width: 30%;
+    margin: 0 35rem ;
+}
 .titulo{
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 7rem;
-    color: black;
+    font-family: 'New Tegomin', serif;
+    font-size: 8rem;
+    color: #f9fcfb;
     
+}
+.mt-1 p{
+    color: #f9fcfb;
+    font-size: 3rem;
+    margin: 2rem;
+}
+.fa-circle{
+    color: #E08709;
+    font-size: 1rem;
+    margin: 1rem;
 }
 .icono-h1{
     font-size: 8rem;
@@ -124,6 +162,7 @@ h4{
 }
 img, svg{
     margin-bottom: 5rem!important;
+    
 }
 .resumen-me{
     
@@ -145,6 +184,53 @@ img, svg{
 }
 .resumen-me p{
     color: #aaaaaa;
+    width: 90%;
+    
+}
+#download-cv button{
+    color: #f4f3f3;
+    font-family: 'Karla', sans-serif;
+    margin-top: 5rem;
+    background-color: #E08709;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#download-cv button:hover {
+    color: #E08709;
+    background-color: #f9fcfb;
+}
+.list-redes{
+    color: #E08709;
+    font-size: 3rem;
+    list-style: none;
+    margin: 5rem 2rem;
+    
+    
+}
+
+.list-redes a{
+    color: #E08709;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.list-redes a:hover{
+    color: #f4f3f3;
 }
 
 /**SKILLS**/
@@ -157,6 +243,7 @@ img, svg{
 .section-skill{
     width: 96%!important;
     margin: auto;
+    margin-top: 10rem;
     border-radius: 50px!important;
     -webkit-border-radius: 50px!important;
     -moz-border-radius: 50px!important;
@@ -186,9 +273,161 @@ img, svg{
     margin-left: 0.2rem;
     
 }
+/**PORTFOLIO**/
+
+.card-img {
+    height: 60rem !important;
+    filter: blur(4px) !important;
+    -webkit-filter: blur(4px) !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    margin-bottom: 0!important;
+    
+}
+.card:hover .card-img {
+    filter: blur(0) !important;
+    transform: scale(1.1) !important;
+    -webkit-filter: blur(0) !important;
+    -webkit-transform: scale(1.1) !important;
+    -moz-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    -o-transform: scale(1.1) !important;
+    
+}
+.cartas{
+    overflow: hidden!important;
+}
 
 
 
+.enlace-portfolio{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.enlace-portfolio p:hover{
+    color: #f4f3f3;
+    
+}
+
+
+/**CONTACT**/
+.contact::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: .2rem;
+    background-color: #E08709;
+    margin: auto;
+    margin-top: 3rem;
+}
+.contact {
+    color: #E08709;
+    font-size: 3rem;
+    font-family: 'Crimson Text', serif;
+    
+}
+.fa-user-circle{
+    color: #E08709;
+    margin: 1rem;
+}
+.formulario h5{
+    font-size: 2rem;
+    color: #f9fcfb;
+    font-family: 'Karla', sans-serif;
+}
+.formulario{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-name{
+   width: 40rem;
+}
+.name-surname{
+    display: flex;
+    
+    
+}
+input , select{
+    font-size: 2rem;
+    margin: 10px 10px 20px 0;
+    background: none;
+    width: 90%;
+    border: none;
+    border-bottom: solid 1px #E08709;
+    font-size: 2rem;
+    color: #aaaaaa;
+    
+}
+input:focus{
+    outline: none;
+    color: #f9fcfb;
+    border-bottom: solid 2px #f9fcfb;
+}
+select:focus{
+    outline: none;
+    color: black;
+    border-bottom: solid 2px #E08709;
+}
+.text-area{
+    font-size: 2rem;
+    margin: 10px 10px 20px 0;
+    background: none;
+    width: 90%;
+    border: none;
+    border: solid 1px #E08709;
+    font-size: 2rem;
+    color: #aaaaaa;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.text-area:focus{
+    outline: none;
+    color: #f9fcfb;
+    padding: 2rem;
+}
+.btn-form{
+    font-size: 2rem;
+    background-color: #E08709;
+    color: #f9fcfb;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    text-align: center;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn-form:hover{
+    background-color: #f9fcfb;
+    color: #E08709;
+    
+}
+
+/**SITE FOOTER**/
+.site-footer{
+    background-color: black;
+    padding: 2rem;
+}
+.site-footer p{
+ color: #f9fcfb;
+}
 
 
 
@@ -241,6 +480,11 @@ img, svg{
         font-family: 'Crimson Text', serif;
         
     }
+    .saludo {
+        margin: auto;
+        font-size: 5rem;
+    }
+    
     
     /*Carousel*/
     
@@ -257,7 +501,7 @@ img, svg{
     .imagen-about {
         width: 80%;
         height: 50rem;
-        margin-left: 10rem;
+        flex-shrink: 1;
     }
     .resumen-me h4::after{
         content: '';
@@ -265,11 +509,168 @@ img, svg{
         width: 5rem;
         height: .5rem;
         background-color: #E08709;
+        margin: auto;
         margin-top: 1rem;
-        justify-self: center;
+        
+    }
+    .resumen-me p{
+        color: #aaaaaa;
+        width: 90%;
+        margin: 3rem auto;
+    }
+    .orange-line{
+       width: 70%;
+       position: relative;
+       margin:auto;
+       margin-bottom: 5rem;
+
+    }
+    
+    #download-cv button{
+        color: #f4f3f3;
+        font-family: 'Karla', sans-serif;
+        
+        width: 20%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-color: #E08709;
+        width: 10rem;
+        height: 5rem;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        -ms-border-radius: 500px;
+        -o-border-radius: 500px;
+        
+        
+    }
+   .card{
+       height: 30rem!important;
+       width: 100%!important;
+       
+      
+       
+}
+.card:hover .card-img {
+    filter: blur(0) !important;
+    transform:none !important;
+    -webkit-filter: blur(0) !important;
+    -webkit-transform:none !important;
+    -moz-transform:none !important;
+    -ms-transform:none !important;
+    -o-transform:none !important;
+}
+.card-img{
+    filter: blur(0)!important;
+    -webkit-filter: blur(0)!important;
+    margin: 0!important;
+}
+.card img{
+    height: 30rem!important;
+}
+   
+   .cartas{
+    flex-direction: column;
+    
+   }
+/**FORMULARIO**/
+.name-surname{
+    display: block;
+    
+    
+}
+form{
+    width: 90%;
+    margin: auto;
+}
+.form-name{
+    width: 20rem;
+}
+}
+
+@media (max-width: 1178px){
+    
+
+    .centrar-texto{
+        text-align: center;
+        
+    }
+    .imagen-about {
+        width: 90%;
+        height: 50rem;
+        margin: auto;
+    }
+    .resumen-me h4::after{
+        content: '';
+        display: block;
+        width: 5rem;
+        height: .5rem;
+        background-color: #E08709;
+        margin: auto;
+        margin-top: 1rem;
+        
+    }
+    .orange-line{
+       width: 70%;
+       position: relative;
+       margin:auto;
+       margin-bottom: 5rem;
+
     }
 }
 
+@media screen and (max-width: 576px){
+ .conteiner{
+     width: 100%;
+     margin: 0;
+ }
+
+ .w-100 {
+    height: 15rem!important;
+    width: 25rem!important;
+    margin: auto;
+}
+ .imagen-about {
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+}
+.list-redes{
+    font-size: 2.5rem;
+}
+.mt-1{
+    margin-top: 8rem!important;
+}
+.titulo{
+    font-size: 6rem;
+}
+.saludo {
+    margin: auto;
+    font-size: 5rem;
+}
+
+.formulario{
+    
+    width: 40rem;
+    margin: auto;
+}
+.site-footer{
+    display: block!important;
+    justify-content: center;
+}
+.redes-footer{
+    justify-content: center;
+    margin: 0%;
+    padding: 0;
+}
+.site-footer p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+}
 
 
 
